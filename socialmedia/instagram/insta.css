@@ -1,0 +1,301 @@
+body {
+  padding-top: 50px;
+  background-color: #f8f8f8;
+}
+.starter-template {
+	margin-top: 80px;
+  text-align: left;
+}
+.insta-nav{
+	background-color: #fff;
+	padding: 10px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.insta_divider{
+	font-size: 40px;
+	font-weight: lighter;
+}
+.insta_svg{
+    margin-left: 20px;
+}
+.avatar{
+	border-radius: 100px;
+	box-shadow: 0 0 4px 0 rgba(117, 122, 150, 0.27);
+	float: right;
+}
+h2{
+	font-size: 40px !important;
+	margin-top: -5px;
+}
+.handle{
+	text-align-last: end;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.insta_btn a{
+	background-color: rgb(56, 151, 240) !important;
+    border-color: #3897f0 !important;
+    padding: 5px 40px 5px 40px;
+    border-radius: 2px !important;
+    font-size: 15px;
+    font-family: serif;
+}
+.top_text{
+	text-align: center;
+	font-size: 20px;
+	margin: 20px;
+}
+.but_text{
+	text-align: left;
+	font-size: 20px;
+	padding-left: 20px !important;
+	margin: 20px !important;
+}
+.insta_post_start{
+	margin-top:35px; 
+}
+.container_post {
+    position: relative;
+    width: 30%;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.copy p{
+	font-size: 15px;
+}
+.copy a{
+	text-decoration: none;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+@media (min-width: 1200px){
+	.container {
+	    width: 1000px;
+	}
+	h2{
+		font-size: 40px !important;
+	    margin-top: -5px;
+	    font-weight: lighter;
+    	font-family: serif;
+	}
+	.mobile{
+	  	display: none !important;
+	}
+	.web{
+		display: block !important;
+	}
+	.container_post img{
+		width: 293px !important;
+		height: 293px !important;
+	}
+}
+
+@media  (max-width: 700px) {
+  	.mobile{
+  		display: block !important;
+  	}
+  	.web{
+  		display: none !important;
+  	}
+  	.container_post {
+    	position: relative;
+    	width: 30%;
+    	float: left;
+    	/*margin: 5px 5px 5px 5px;*/
+    	margin:3px 10px 1px -9px;
+	}
+	.container_post img{
+		width: 136px !important;
+		height: 136px !important;
+	}
+	.starter-template {
+	    /*padding: 8vh 0px 0px 25px !important;*/
+	    margin: 60px 0px 0px 30px;
+	    text-align: left;
+	}
+	h2{
+		font-size: 20px !important;
+	    margin-top: -5px;
+	    font-weight: lighter;
+    	font-family: serif;
+	}
+	.handle{
+		text-align-last: start;
+	}
+	.insta_btn a{
+		background-color: rgb(56, 151, 240) !important;
+	    border-color: #3897f0 !important;
+	    width: 220px;
+	    padding: 2px 0px 2px 0px;
+	    border-radius: 3px !important;
+	    font-size: 15px;
+	    font-family: serif;
+	}
+	.but_text{
+		text-align: left;
+		font-size: 13px;
+	    padding-left: 0px !important;
+	    margin: 10px !important;
+	}
+	.line{
+		margin: -10px;
+	}
+	.insta_post_start{
+		margin-top:10px;
+	    margin-left: -41px;
+    	margin-right: -98px; 
+	}
+	.top_text {
+	    text-align: center;
+	    font-size: 10px;
+	    margin: 0px 0px -6px -15px;
+	}
+	.top_text p{
+		margin: 0px !important;
+		color: #999;
+		font-size: 11px;
+	}
+}
+@media  (width: 768px) {
+  	.mobile{
+  		display: block !important;
+  	}
+  	.web{
+  		display: none !important;
+  	}
+  	.container_post {
+    	position: relative;
+    	width: 30%;
+    	float: left;
+    	/*margin: 5px 5px 5px 5px;*/
+    	margin:0px -14px 7px -9px;
+	}
+	.container_post img{
+		width: 89% !important;
+		height: 136px !important;
+	}
+	.starter-template {
+	    /*padding: 8vh 0px 0px 25px !important;*/
+	    margin: 60px 0px 0px 30px;
+	    text-align: left;
+	}
+	h2{
+		font-size: 36px !important;
+	    margin-top: -5px;
+	    font-weight: lighter;
+    	font-family: serif;
+	}
+	.handle{
+		text-align-last: start;
+	}
+	.insta_btn a{
+		background-color: rgb(56, 151, 240) !important;
+	    border-color: #3897f0 !important;
+	    width: 300px;
+	    padding: 5px 0px 5px 0px;
+	    border-radius: 3px !important;
+	    font-size: 15px;
+	    font-family: serif;
+	}
+	.but_text{
+		text-align: left;
+		font-size: 20px;
+	    padding-left: 0px !important;
+	    margin: 10px !important;
+	}
+	.line{
+		margin: -10px;
+	}
+	.insta_post_start{
+		margin-top:10px;
+	    margin-left: -41px;
+    	margin-right: -98px; 
+	}
+	.top_text {
+	    text-align: center;
+	    font-size: 10px;
+	    margin: 0px 0px 0px -60px;
+	}
+	.top_text p{
+		margin: 0px !important;
+		color: #999;
+		font-size: 16px;
+	}
+}
+
+@media  (width: 1024px) {
+  	.mobile{
+  		display: none !important;
+  	}
+  	.web{
+  		display: block !important;
+  	}
+  	.container_post {
+    	position: relative;
+    	width: 30%;
+    	float: left;
+    	/*margin: 5px 5px 5px 5px;*/
+    	margin:0px -14px 7px -9px;
+	}
+	.container_post img{
+		width: 89% !important;
+		height: 136px !important;
+	}
+	.starter-template {
+	    /*padding: 8vh 0px 0px 25px !important;*/
+	    margin: 60px 0px 0px 30px;
+	    text-align: left;
+	}
+	h2{
+		font-size: 36px !important;
+	    margin-top: -5px;
+	    font-weight: lighter;
+    	font-family: serif;
+	}
+	.handle{
+		text-align-last: start;
+	}
+	.insta_btn a{
+		background-color: rgb(56, 151, 240) !important;
+	    border-color: #3897f0 !important;
+	    width: 200px;
+	    padding: 5px 0px 5px 0px;
+	    border-radius: 3px !important;
+	    font-size: 15px;
+	    font-family: serif;
+	}
+	.but_text{
+		text-align: left;
+		font-size: 20px;
+	    padding-left: 0px !important;
+	    margin: 10px !important;
+	}
+	.line{
+		margin: -10px;
+	}
+	.insta_post_start{
+		margin-top:10px;
+	    margin-left: -41px;
+    	margin-right: -98px; 
+	}
+	.top_text {
+	    text-align: center;
+	    font-size: 10px;
+	    margin: 0px 0px 0px -60px;
+	}
+	.top_text p{
+		margin: 0px !important;
+		color: #999;
+		font-size: 16px;
+	}
+}	
